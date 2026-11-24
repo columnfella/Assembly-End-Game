@@ -1,11 +1,26 @@
-# Assembly End Game
+# Assembly: Endgame
 
-This repository is a hang-man style React-built guessing game, the concept consists of basically killing off programming languages one by one until  Assembly is left which displays a losing message telling the player to start learning assembly.
+A word-guessing game in the style of Hangman, built with **React**. Every wrong guess eliminates a programming language. Guess the word before only Assembly is left.
 
-*Recources:*
+## Features
 
-This repository is an exercise from Bob Zirroll's React course on the Scrimba platform: [https://scrimba.com/learn-react-c0e](https://scrimba.com/learn-react-c0e)
+- On-screen keyboard that marks correct and incorrect letters
+- Programming-language "lives" that are eliminated with each wrong guess
+- Win and loss states, with a confetti celebration on a win
+- Random word selection and a one-click new game
+- Status messages that announce each eliminated language
 
-The confetti effect is from the react-confetti package: [https://github.com/alampros/react-confetti#readme](https://github.com/alampros/react-confetti#readme)
+## Tech stack
 
-The React clsx package: https://www.npmjs.com/package/clsx
+React · JavaScript · Vite · clsx · react-confetti
+
+## Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+## Credits
+
+Built while following Bob Ziroll's [Learn React](https://scrimba.com/learn-react-c0e) course on Scrimba.
